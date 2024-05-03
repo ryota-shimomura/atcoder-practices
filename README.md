@@ -1,1 +1,1 @@
-# algorithm-parts
+# atcoder-parts
