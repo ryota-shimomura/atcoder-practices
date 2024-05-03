@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "AtCoder C++ build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=gnu++17",
+                "-g",
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-DLOCAL_DEBUG",
+                "-I${workspaceFolder}/ac-library",
+                "-o",
+                "'${workspaceFolder}/program'",
+                "'${file}'"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

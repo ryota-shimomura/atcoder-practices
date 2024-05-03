@@ -1,0 +1,8 @@
+# VSCode
+.vscode/settings.json
+
+# AtCoder Library
+ac-library/
+
+# C++ Artifacts
+program
